@@ -2,6 +2,8 @@ package com.javalessons.operators;
 
 public class Operators {
     public static void main(String[] args) {
+        System.out.println("Hello World");
+
         double a = 10;
         double b = 3;
 
@@ -18,5 +20,17 @@ public class Operators {
         System.out.println("e= " + e);
         System.out.println("f= " + f);
         System.out.println("g= " + g);
+
+        a += 5;
+        System.out.println("New a = " + a);
+
+        double m = 8;
+        double n = 8;
+
+        double res_one = 2 * m++;
+        double res_two = 2 * ++n;
+
+        System.out.println("m = " + res_one);
+        System.out.println("n = " + res_two);
     }
 }
