@@ -32,5 +32,16 @@ public class Operators {
 
         System.out.println("m = " + res_one);
         System.out.println("n = " + res_two);
+
+
+        int x = 3;
+        int y = 5;
+        int z = 8;
+
+        boolean isVal = x <= y;
+        System.out.println(isVal);
+
+        int res = (x < y) && (z < y) ? x : y;
+        System.out.println(res);
     }
 }
